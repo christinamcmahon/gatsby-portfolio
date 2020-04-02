@@ -1,10 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { useStaticQuery, graphql } from "gatsby";
 import {
-  FaFacebook,
-  FaTwitter,
-  FaInstagram,
   FaGithub,
   FaLinkedin
 } from "react-icons/fa";
@@ -28,47 +24,36 @@ const IconGroup = styled.div`
 `;
 
 export default function SocialIcons() {
-  const data = useStaticQuery(graphql`
-    query MyQuery {
-      site {
-        siteMetadata {
-          socialLinks {
-            name
-            url
-          }
-        }
-      }
+  // customize social links here
+  const socialLinks = [
+    {
+      name: "LinkedIn",
+      url: "https://www.linkedin.com/in/christinamcmahon1/"
+    }, {
+      name: "Github",
+      url: "https://github.com/christinamcmahon"
     }
-  `);
+  ]
 
   return (
     <IconGroup>
-      {data.site.siteMetadata.socialLinks.map(({ name, url }, index) => (
-        <a href={url} key={index}>
-          <Icon name={name} />
-        </a>
-      ))}
+      {socialLinks.map(function ({ name, url }, index) {
+        return (
+          <a href={url} key={index}>
+            <Icon name={name} />
+          </a>
+        )
+      })}
     </IconGroup>
   );
 }
 
 const Icon = ({ name }) => {
   switch (name) {
-    case "Facebook":
-      return <FaFacebook />;
-      break;
     case "Github":
       return <FaGithub />;
-      break;
-    case "Twitter":
-      return <FaTwitter />;
-      break;
-    case "Instagram":
-      return <FaInstagram />;
-      break;
     case "LinkedIn":
       return <FaLinkedin />;
-      break;
 
     default:
       break;
