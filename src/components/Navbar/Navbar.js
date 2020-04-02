@@ -6,6 +6,9 @@ import Menu from "./Menu";
 import { Link } from "gatsby";
 
 export default function index() {
+  // customize blog link here
+  const blogLink = "https://dev.to/christinamcmahon"
+
   return (
     <ResponsiveMenu
       menuOpenButton={<FaBars size={30} color="#616CAA" />}
@@ -17,13 +20,13 @@ export default function index() {
         <Menu>
           <ul>
             <li className="logo">
-              <NavLink to="/">MOHAN</NavLink>
+              <NavLink to="/">CHRISTINA</NavLink>
             </li>
             <li>
               <NavLink to="/projects">See my work</NavLink>
             </li>
             <li>
-              <NavLink to="/blog">blog</NavLink>
+              <a href={blogLink}>blog</a>
             </li>
           </ul>
         </Menu>
@@ -37,7 +40,7 @@ export default function index() {
             fontFamily: "Montserrat, sans-serif"
           }}
         >
-          <h2>MOHAN</h2>
+          <h2>CHRISTINA</h2>
         </Link>
       }
     />
