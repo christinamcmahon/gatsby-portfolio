@@ -1,1 +1,10 @@
-{"componentChunkName":"component---src-pages-hello-js","path":"/hello/","webpackCompilationHash":"","result":{"pageContext":{"isCreatedByStatefulCreatePages":true}}}
+{
+    "componentChunkName": "component---src-pages-hello-js",
+    "path": "/hello/",
+    "webpackCompilationHash": "",
+    "result": {
+        "pageContext": {
+            "isCreatedByStatefulCreatePages": true
+        }
+    }
+}

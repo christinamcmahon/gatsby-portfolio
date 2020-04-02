@@ -8,7 +8,7 @@ export default function Layout({ children }) {
     <Container>
       <Navbar />
       <main style={{ marginTop: "50px" }}>{children}</main>
-      <Footer></Footer>
+      {/* <Footer></Footer> */}
     </Container>
   );
 }

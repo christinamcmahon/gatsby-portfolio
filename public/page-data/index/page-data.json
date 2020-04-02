@@ -1,1 +1,18 @@
-{"componentChunkName":"component---src-pages-index-js","path":"/","webpackCompilationHash":"","result":{"data":{"markdownRemark":{"rawMarkdownBody":"I’m Mohan and I love creating useful stuff. I’m a Passionate\r\nFront-end Developer, UI/UX Enthusiast, AndroidGeek, FirebaseLover\r\nand Web Developer. Currently, I’m an Undergrad in Computer\r\nScience.\r\n\r\n","frontmatter":{"heading":"Hello There!"}}},"pageContext":{"isCreatedByStatefulCreatePages":true}}}
+{
+    "componentChunkName": "component---src-pages-index-js",
+    "path": "/",
+    "webpackCompilationHash": "",
+    "result": {
+        "data": {
+            "markdownRemark": {
+                "rawMarkdownBody": "I’m Mohan and I love creating useful stuff. I’m a Passionate\nFront-end Developer, UI/UX Enthusiast, AndroidGeek, FirebaseLover\nand Web Developer. Currently, I’m an Undergrad in Computer\nScience.\n\n",
+                "frontmatter": {
+                    "heading": "Hello There!"
+                }
+            }
+        },
+        "pageContext": {
+            "isCreatedByStatefulCreatePages": true
+        }
+    }
+}
