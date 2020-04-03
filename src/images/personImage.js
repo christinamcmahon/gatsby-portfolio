@@ -15,10 +15,11 @@ const Wrapper = styled.figure`
 
 const WrappedImg = props => <Wrapper>{props.children}</Wrapper>;
 
+// add profile pic file name below
 const Image = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "mohan.png" }) {
+      placeholderImage: file(relativePath: { eq: "christina.png" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid
