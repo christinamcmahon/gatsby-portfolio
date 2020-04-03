@@ -2,8 +2,7 @@
 page: Index
 heading: Hello There!
 ---
-I’m Mohan and I love creating useful stuff. I’m a Passionate
-Front-end Developer, UI/UX Enthusiast, AndroidGeek, FirebaseLover
-and Web Developer. Currently, I’m an Undergrad in Computer
-Science.
+I'm Christina and I love to code. I'm a Passionate Full Stack Web
+Developer and I recently graduated from Flatiron School where I 
+gained expertise in JavaScript, React, and Ruby on Rails. 
 
