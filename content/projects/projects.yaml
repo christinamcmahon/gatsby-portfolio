@@ -1,28 +1,35 @@
-- title: Weather App
-  description: A simple weather build with the help of Open Weather API.This is just a simple weather app that usually predicts the weather.
-  cover: tech_cover.png
-  repo: https://github.com/mohanmonu777/myWeatherApp
-  date: Aug 9, 2018
+- title: plantr
+  description: An app for managing the care of your plants with reminders for watering added directly to your calendar.
+  cover: plantr.png
+  demo: 
+  repo: https://github.com/christinamcmahon/plantr-frontend
   tags:
-    - Android
-    - Java
+    - React
+    - Redux
+    - Rails
 
-- title: Game of Chats
-  description: A simple Blog + Chat App build using Flutter and inspired by Game of Thrones
-  cover: game_of_chats_cover.png
-  demo: http://download1145.mediafire.com/660shu5qzu8g/t7qe92xbvuv353u/Game+Of+Chats.apk
-  repo: https://github.com/mohanmonu777/Game-of-chats-Flutterchatapp
-  date: Jan 27, 2019
+- title: PokéBattler
+  description: An app built for Pokémon fans to look up stats pulled from the PokéAPI and battle wild Pokémon.
+  cover: pokebattler.png
+  demo: 
+  repo: https://github.com/christinamcmahon/pokemon-battler-frontend
   tags:
-    - Firebase
-    - Flutter
+    - React
+    - Rails
 
-- title: Firebase Articles
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  cover: bro_cover.png
-  demo: https://www.mediafire.com/file/rlc30odk1ep4w9v/app-release.apk/file
-  repo: https://github.com/mohanmonu777/firebaseArticles
-  date: Jun 4, 2019
+- title: Board Game Reviewer
+  description: A simple CLI app for getting information about board games and adding reviews. 
+  cover: board_game_reviewer.png
+  demo: 
+  repo: https://github.com/christinamcmahon/board-game-reviewer-cli-app
   tags:
-    - Firebase
-    - Flutter
+    - Ruby
+
+- title: Pic Pin
+  description: Inspired by Pinterest, this app is great for finding beautful photos pulled from the Unsplash API. 
+  cover: pic_pin.png
+  demo: 
+  repo: https://github.com/christinamcmahon/pic-pin
+  tags:
+    - Ruby
+

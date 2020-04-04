@@ -41,10 +41,8 @@ export default function projects({ data }) {
                 <Heading size="24px" height="33px" weight="400">
                   {node.title}
                 </Heading>
-                📅 {node.date}
                 <Description size="18px" height="25px">
                   {node.description}
-
                   <p>
                     ️️Built with{" "}
                     {node.tags.map(tag => (
