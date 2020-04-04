@@ -25,6 +25,14 @@
   tags:
     - Ruby
 
+- title: Personality Quiz
+  description: Take a quiz to determine which Myers Briggs Personality Type you are and compare with other users. 
+  cover: mbti_quiz.png
+  demo: 
+  repo: https://github.com/christinamcmahon/mbti-quiz
+  tags:
+    - Rails
+
 - title: Pic Pin
   description: Inspired by Pinterest, this app is great for finding beautful photos pulled from the Unsplash API. 
   cover: pic_pin.png
