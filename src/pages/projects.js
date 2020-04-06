@@ -25,7 +25,6 @@ const Button = styled.a`
 
 const Item = styled.span`
   margin-right: 5px;
-  color: #616caa;
   font-style: italic;
 `;
 
