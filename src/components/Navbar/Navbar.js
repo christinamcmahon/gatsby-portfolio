@@ -26,7 +26,7 @@ export default function index() {
               <NavLink to="/projects">See my work</NavLink>
             </li>
             <li>
-              <a href={blogLink}>blog</a>
+              <a href={blogLink} target="_blank">blog</a>
             </li>
           </ul>
         </Menu>

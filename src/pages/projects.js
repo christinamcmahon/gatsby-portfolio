@@ -50,8 +50,8 @@ export default function projects({ data }) {
                     ))}
                   </p>
                 </Description>
-                {node.demo ? <Button href={node.demo}>Demo</Button> : null}
-                {node.repo ? <Button href={node.repo}>Source</Button> : null}
+                {node.demo ? <Button href={node.demo} target="_blank">Demo</Button> : null}
+                {node.repo ? <Button href={node.repo} target="_blank">Source</Button> : null}
               </div>
             ))}
         </div>

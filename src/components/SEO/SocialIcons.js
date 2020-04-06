@@ -39,7 +39,7 @@ export default function SocialIcons() {
     <IconGroup>
       {socialLinks.map(function ({ name, url }, index) {
         return (
-          <a href={url} key={index}>
+          <a href={url} key={index} target="_blank">
             <Icon name={name} />
           </a>
         )
