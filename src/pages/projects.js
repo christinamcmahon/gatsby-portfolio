@@ -62,7 +62,7 @@ export default function projects({ data }) {
 
 export const pageQuery = graphql`
   query ProjectsQuery {
-    allProjectsYaml(sort: { fields: date, order: DESC }) {
+    allProjectsYaml(sort: { fields: title, order: DESC }) {
       edges {
         node {
           title
@@ -74,9 +74,7 @@ export const pageQuery = graphql`
               }
             }
           }
-          demo
           repo
-          date
           tags
         }
       }
