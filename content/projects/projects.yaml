@@ -3,6 +3,7 @@
   cover: plantr.png
   demo: 
   repo: https://github.com/christinamcmahon/plantr-frontend
+  date: Mar 27, 2020
   tags:
     - React
     - Redux
@@ -13,6 +14,7 @@
   cover: pokebattler.png
   demo: 
   repo: https://github.com/christinamcmahon/pokemon-battler-frontend
+  date: Mar 5, 2020
   tags:
     - React
     - Rails
@@ -22,6 +24,7 @@
   cover: board_game_reviewer.png
   demo: 
   repo: https://github.com/christinamcmahon/board-game-reviewer-cli-app
+  date: Jan 2, 2020
   tags:
     - Ruby
 
@@ -30,6 +33,7 @@
   cover: mbti_quiz.png
   demo: 
   repo: https://github.com/christinamcmahon/mbti-quiz
+  date: Jan 23, 2020
   tags:
     - Rails
 
@@ -38,6 +42,7 @@
   cover: pic_pin.png
   demo: 
   repo: https://github.com/christinamcmahon/pic-pin
+  date: Feb 13, 2020
   tags:
     - Ruby
 

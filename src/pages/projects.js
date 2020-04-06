@@ -62,7 +62,7 @@ export default function projects({ data }) {
 
 export const pageQuery = graphql`
   query ProjectsQuery {
-    allProjectsYaml(sort: { fields: title, order: DESC }) {
+    allProjectsYaml(sort: { fields: date, order: DESC }) {
       edges {
         node {
           title
