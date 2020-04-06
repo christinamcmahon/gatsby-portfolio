@@ -10,7 +10,7 @@ const IconGroup = styled.div`
   padding-bottom: 10px;
 
   a {
-    color: #616caa;
+    color: #A8648D;
     font-size: 30px;
     margin-right: 20px;
   }

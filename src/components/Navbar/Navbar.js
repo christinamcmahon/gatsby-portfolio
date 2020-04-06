@@ -11,8 +11,8 @@ export default function index() {
 
   return (
     <ResponsiveMenu
-      menuOpenButton={<FaBars size={30} color="#616CAA" />}
-      menuCloseButton={<FaWindowClose size={30} color="#616CAA" />}
+      menuOpenButton={<FaBars size={30} color="#A8648D" />}
+      menuCloseButton={<FaWindowClose size={30} color="#A8648D" />}
       changeMenuOn="500px"
       largeMenuClassName="large-menu"
       smallMenuClassName="small-menu"

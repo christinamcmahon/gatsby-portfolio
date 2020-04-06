@@ -3,7 +3,7 @@ import styled from "styled-components";
 const Toolbar = styled.div`
   display: flex;
   justify-content: space-between;
-  background-color: #616caa;
+  background-color: #A8648D;
   color: #fff;
   padding: 50px 50px 0px 50px;
   height: 200px;

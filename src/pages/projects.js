@@ -10,15 +10,15 @@ import PageGrid from "../components/Responsive/PageGrid";
 const Button = styled.a`
   padding: 5px 20px;
   background: transparent;
-  border: 2px solid #616caa;
+  border: 2px solid #A8648D;
   border-radius: 5px;
   margin-right: 15px;
-  color: #616caa;
+  color: #A8648D;
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
   &:hover {
-    background: #616caa;
+    background: #A8648D;
     color: #fff;
   }
 `;
