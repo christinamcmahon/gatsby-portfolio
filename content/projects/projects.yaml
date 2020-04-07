@@ -38,7 +38,7 @@
     - Rails
 
 - title: Pic Pin
-  description: Inspired by Pinterest, this app is great for finding beautful photos pulled from the Unsplash API. 
+  description: Inspired by Pinterest, this app is great for finding beautiful photos pulled from the Unsplash API. 
   cover: pic_pin.png
   demo: 
   repo: https://github.com/christinamcmahon/pic-pin
