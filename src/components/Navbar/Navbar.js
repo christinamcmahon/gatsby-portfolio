@@ -4,6 +4,7 @@ import ResponsiveMenu from "./Core";
 import NavLink from "./NavLink";
 import Menu from "./Menu";
 import { Link } from "gatsby";
+import resumePdf from "../ChristinaMcMahon-Resume.pdf";
 
 export default function index() {
   // customize links here
@@ -29,7 +30,7 @@ export default function index() {
               <a href={blogLink} target="_blank">blog</a>
             </li>
             <li>
-              <NavLink to="/content/pages/ChristinaMcMahon-Resume.pdf">Resume</NavLink>
+              <a href={resumePdf} target="_blank">Resume</a>
             </li>
           </ul>
         </Menu>
