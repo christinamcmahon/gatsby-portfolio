@@ -4,7 +4,7 @@ import ResponsiveMenu from "./Core";
 import NavLink from "./NavLink";
 import Menu from "./Menu";
 import { Link } from "gatsby";
-import resumePdf from "../ChristinaMcMahon-Resume.pdf";
+import resumePdf from "src/components/Navbar/ChristinaMcMahon-Resume.pdf";
 
 export default function index() {
   // customize links here
