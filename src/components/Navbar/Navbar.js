@@ -6,8 +6,8 @@ import Menu from "./Menu";
 import { Link } from "gatsby";
 
 export default function index() {
-  // customize blog link here
-  const blogLink = "https://dev.to/christinamcmahon"
+  // customize links here
+  const blogLink = "https://dev.to/christinamcmahon";
 
   return (
     <ResponsiveMenu
@@ -27,6 +27,9 @@ export default function index() {
             </li>
             <li>
               <a href={blogLink} target="_blank">blog</a>
+            </li>
+            <li>
+              <NavLink to="/content/pages/ChristinaMcMahon-Resume.pdf">Resume</NavLink>
             </li>
           </ul>
         </Menu>
