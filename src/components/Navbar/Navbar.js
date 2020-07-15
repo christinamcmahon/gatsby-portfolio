@@ -4,11 +4,10 @@ import ResponsiveMenu from "./Core";
 import NavLink from "./NavLink";
 import Menu from "./Menu";
 import { Link } from "gatsby";
-import resumePdf from "src/components/Navbar/ChristinaMcMahon-Resume.pdf";
 
 export default function index() {
-  // customize links here
-  const blogLink = "https://dev.to/christinamcmahon";
+  // customize blog link here
+  const blogLink = "https://dev.to/christinamcmahon"
 
   return (
     <ResponsiveMenu
@@ -28,9 +27,6 @@ export default function index() {
             </li>
             <li>
               <a href={blogLink} target="_blank">blog</a>
-            </li>
-            <li>
-              <a href={resumePdf} target="_blank">Resume</a>
             </li>
           </ul>
         </Menu>
