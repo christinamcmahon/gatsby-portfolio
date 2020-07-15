@@ -2,7 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import {
   FaGithub,
-  FaLinkedin
+  FaLinkedin,
+  FaDev
 } from "react-icons/fa";
 
 const IconGroup = styled.div`
@@ -32,6 +33,9 @@ export default function SocialIcons() {
     }, {
       name: "Github",
       url: "https://github.com/christinamcmahon"
+    }, {
+      name: "DEV",
+      url: "https://dev.to/christinamcmahon"
     }
   ]
 
@@ -54,7 +58,8 @@ const Icon = ({ name }) => {
       return <FaGithub />;
     case "LinkedIn":
       return <FaLinkedin />;
-
+    case "DEV":
+      return <FaDev />;
     default:
       break;
   }
